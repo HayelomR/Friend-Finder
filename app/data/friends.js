@@ -1,68 +1,59 @@
+// ===============================================================================
+// DATA
+// Below data will hold all of the reserved tables.
+// Multiple dummy friends makes it easier to test!
+// ===============================================================================
+
 var friends = [
-{
-  "name":"Taylor Swift",
-  "photo":'<a href="http://tinypic.com?ref=2uygn54" target="_blank"><img src="http://i43.tinypic.com/2uygn54.jpg" border="0" alt="Image and video hosting by TinyPic"></a>',
-  "scores":[
-      5,
-      1,
-      4,
-      4,
-      1,
-      5,
-      5,
-      2,
-      3,
-      5
+  {
+    "name": "Taylor Swift",
+    "photo": "http://www.hdwallpapers.in/walls/taylor_swift_2016_4k_5k-wide.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
     ]
   },
-{
-  "name":"Justin Bieber",
-  "photo":'<a href="http://tinypic.com?ref=2uqlz4p" target="_blank"><img src="http://i58.tinypic.com/2uqlz4p.jpg" border="0" alt="Image and video hosting by TinyPic"></a>',
-  "scores":[
-      1,
-      2,
-      3,
-      5,
-      4,
-      1,
-      5,
-      5,
-      3,
-      5
+  {
+    "name": "katy Perry",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Katy_Perry_UNICEF_2012.jpg",
+    "scores":[
+        3,
+        2,
+        2,
+        4,
+        1,
+        1,
+        5,
+        1,
+        3,
+        1
     ]
-},{
-  "name":"Katy Perry",
-  "photo":'<a href="http://tinypic.com?ref=2vmg3er" target="_blank"><img src="http://i60.tinypic.com/2vmg3er.jpg" border="0" alt="Image and video hosting by TinyPic"></a>',
-  "scores":[
-      4,
-      1,
-      1,
-      4,
-      3,
-      1,
-      2,
-      4,
-      5,
-      5
+  },
+  {
+    "name": "Rihanna",
+    "photo": "http://assets4.capitalxtra.com/2017/07/rihanna-grammys-2017-1486951728-editorial-short-form-0.jpg",
+    "scores":[
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
     ]
-},
-{
-  "name":"Liya Kebede",
-  "photo":'<a href="http://tinypic.com?ref=5dtm6u" target="_blank"><img src="http://i39.tinypic.com/5dtm6u.jpg" border="0" alt="Image and video hosting by TinyPic"></a>',
-  "scores":[
-      4,
-      1,
-      4,
-      2,
-      1,
-      1,
-      1,
-      2,
-      3,
-      1
-    ]
-}
-
+  }
 ];
 
+// Note how we export the array. This makes it accessible to other files using require.
 module.exports = friends;
