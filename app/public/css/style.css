@@ -1,0 +1,22 @@
+.jumbotron{
+	padding-top: 20px;
+	background-color: 	#4169E1;
+	color: white;
+}
+.container {
+	padding-top: 100px;
+}
+body{
+	 background-image: url("images/Friends.jpg");
+}
+.footer {
+	margin-left: -70px;
+	position: fixed;
+	bottom: 0;
+	padding-top: 15px;
+	/* color:black;*/
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	background-color: silver;
+}

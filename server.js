@@ -8,6 +8,8 @@ var path = require("path");
 var app = express();
 // Sets an initial port. We"ll use this later in our listener
 var PORT = process.env.PORT || 8080;
+// Static directory to be served
+app.use(express.static("app/public"));
 // BodyParser makes it possible for our server to interpret data sent to it.
 // The code below is pretty standard.
 app.use(bodyParser.urlencoded({ extended: true }));
