@@ -2,6 +2,7 @@
 // DATA
 // Below data will hold all of the reserved tables.
 // Multiple dummy friends makes it easier to test!
+// all the dummy dates which are create
 // ===============================================================================
 
 var friends = [
